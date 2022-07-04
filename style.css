@@ -13,14 +13,17 @@ p{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
    
 }
 .potol{
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
 }
 .potol img{
-    width: 70%;   
+    width: 70%;  
+    margin-top: 10%; 
 }
 .button{
     text-decoration: none;
@@ -34,3 +37,11 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.dream-area{
+
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 5%;
+}
+
